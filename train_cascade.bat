@@ -1,0 +1,1 @@
+opencv_traincascade.exe -data C:\tp\proj\training\gate\haar -vec C:\tp\proj\training\gate\samples.vec -bg C:\tp\proj\training\gate\bad.dat -numStages 16 -minhitrate 0.999 -maxFalseAlarmRate 0.4 -numPos 45 -numNeg 36 -w 30 -h 20 -mode ALL -precalcValBufSize 1024 -precalcIdxBufSize 1024 > train_cascade.log

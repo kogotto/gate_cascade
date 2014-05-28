@@ -1,0 +1,1 @@
+opencv_createsamples.exe -info C:\tp\proj\training\gate\good.dat -vec C:\tp\proj\training\gate\samples.vec -w 30 -h 20 > create_samples.log
